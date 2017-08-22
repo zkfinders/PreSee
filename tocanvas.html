@@ -23,7 +23,7 @@
 
         files.forEach(function (file,i) {
             if(!/image\/\w+/.test(file.type)){
-                alert("看清楚，这个需要图片！");
+                alert("看清楚，需要图片！");
                 return false;
             }
             var reader = new FileReader();//IE9+
